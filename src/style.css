@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: rgb(107, 119, 151);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+input {
+  outline: none;
+  width: 85%;
+  border-radius: 5px;
+  border: 4px dashed rgb(45, 51, 59);
+  padding: 15px;
+  opacity: 0.8;
+}
+
+input:hover {
+  opacity: 1;
+}
+
+#result {
+  opacity: 0.7;
+}
+
+#result:hover {
+  cursor: pointer;
+  opacity: 1;
+  text-decoration: underline;
+}
